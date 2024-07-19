@@ -1,0 +1,75 @@
+{
+	// Place your snippets for python here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+	"if_name_main": {
+		"prefix": "if_name_main",
+		"body": [
+			"if __name__ == \"__main__\":",
+			"\t${1:main()}$0"
+		],
+		"description": "creates boilerplate if name equals main in python"
+	},
+	"main_boilerplate": {
+		"prefix": "main",
+		"body": [
+			"def main():",
+			"\t${2:pass}$0\n\n\n",
+			"if __name__ == \"__main__\":",
+			"\t${1:main()}"
+		],
+		"description": "creates main function"
+	},
+	"for_range": {
+		"prefix": "forr",
+		"body": [
+			"for i in range(${1:stop}):",
+			"\t$0"
+		],
+		"description": "creates for range loop"
+	},
+	"curses main": {
+		"prefix": "curses_main",
+		"body": [
+			"import curses\n\n",
+			"def main(stdscr):",
+			"\t${1:pass}$0\n\n",
+			"if __name__ == \"__main__\":",
+			"\tprint(curses.wrapper(main))"
+		],
+	},
+	"shebang": {
+		"prefix": "py",
+		"body": [
+			"#!/usr/bin/env python3\n\n"
+		],
+		"description": "creates shebang"
+	},
+	"pass": {
+		"prefix": "pass",
+		"body": [
+			"raise NotImplementedError(\"$1\")$0"
+		],
+		"description": "DON'T USE PASS smh"
+	},
+	"init": {
+		"prefix": "!py",
+		"body": [
+			"#!/usr/bin/env python3\n\"\"\"\n$1\n\"\"\"\n",
+			"def main():",
+			"\t${3:pass}$0\n\n",
+			"if __name__ == \"__main__\":",
+			"\t${2:main()}\n"
+		],
+		"description": "init new python file"
+}

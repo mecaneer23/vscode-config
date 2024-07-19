@@ -1,0 +1,96 @@
+{
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": "active",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "explorer.confirmDragAndDrop": false,
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "git.autofetch": true,
+    "editor.inlineSuggest.enabled": true,
+    "tabnine.experimentalAutoImports": true,
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.renderWhitespace": "all",
+    "terminal.integrated.fontFamily": "monospace",
+    "workbench.iconTheme": "material-icon-theme",
+    "[markdown]": {
+        "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+    },
+    "workbench.startupEditor": "none",
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "livePreview.portNumber": 5500,
+    "material-icon-theme.folders.color": "#90a4ae",
+    "editor.showFoldingControls": "always",
+    "[python]": {
+        "editor.defaultFormatter": "charliermarsh.ruff"
+    },
+    "notebook.lineNumbers": "on",
+    "files.eol": "\n",
+    "errorLens.enabledDiagnosticLevels": [
+        "error",
+        "warning",
+        "info",
+        "hint"
+    ],
+    "workbench.editor.empty.hint": "hidden",
+    "workbench.colorCustomizations": {
+        // "editorBracketHighlight.foreground1": "#ffd700",
+        // "editorBracketHighlight.foreground2": "#da70d6",
+        // "editorBracketHighlight.foreground3": "#179fff",
+        // "editorBracketHighlight.foreground4": "#00dd00",
+        // "editorBracketHighlight.foreground5": "#935518",
+        // "editorBracketHighlight.foreground6": "#4bd4cd",
+        "[Default Dark+]": {
+            "editorBracketHighlight.foreground1": "#DCDCAA",
+            "editorBracketHighlight.foreground2": "#C586C0",
+            "editorBracketHighlight.foreground3": "#569CD6",
+            "editorBracketHighlight.foreground4": "#6A9955",
+            "editorBracketHighlight.foreground5": "#CE9178",
+            "editorBracketHighlight.foreground6": "#9CDCFE",
+        },
+        "[Monokai]": {
+            "editorBracketHighlight.foreground1": "#FD971F",
+            "editorBracketHighlight.foreground2": "#AE81FF",
+            "editorBracketHighlight.foreground3": "#66D9EF",
+            "editorBracketHighlight.foreground4": "#A6E22E",
+            "editorBracketHighlight.foreground5": "#E6DB74",
+            "editorBracketHighlight.foreground6": "#6796E6",
+        },
+    },
+    "redhat.telemetry.enabled": false,
+    "sidebar-markdown-notes.leftMargin": true,
+    "python.analysis.typeCheckingMode": "strict",
+    "ruff.lint.args": [
+        "\"args\": [\"--select=ALL\"]"
+    ],
+    "mypy-type-checker.args": [
+        "--mypy-path=typings"
+    ],
+    "workbench.colorTheme": "Default Dark+",
+    "editor.minimap.size": "fill",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "gitlens.graph.minimap.dataType": "lines",
+    "diffEditor.useInlineViewWhenSpaceIsLimited": false,
+    "python.createEnvironment.trigger": "off",
+    "settingsSync.ignoredExtensions": [
+        "sourcery.sourcery"
+    ],
+    "svg.preview.mode": "svg",
+    "diffEditor.hideUnchangedRegions.enabled": true,
+    "editor.fontLigatures": true,
+    "interactiveWindow.executeWithShiftEnter": true,
+}
